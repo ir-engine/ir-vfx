@@ -1,0 +1,183 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter"
+  },
+  "scenes": [
+    {
+      "name": "New Object",
+      "nodes": [
+        0
+      ],
+      "extras": {
+        "src": "__$project$__/ir-vfx/assets/prefabs/explosion.gltf"
+      }
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "name": "explosion",
+      "extensions": {
+        "EE_uuid": "a569b9dd-a658-401f-a616-a1b183b9a36f",
+        "EE_particle_system": {
+          "systemParameters": {
+            "version": "1.0",
+            "autoDestroy": false,
+            "looping": true,
+            "prewarm": false,
+            "material": "",
+            "duration": 2,
+            "shape": {
+              "type": "point"
+            },
+            "startLife": {
+              "type": "ConstantValue",
+              "value": 1
+            },
+            "startSpeed": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "startRotation": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "startSize": {
+              "type": "ConstantValue",
+              "value": 2.4000000000000004
+            },
+            "startColor": {
+              "type": "ConstantColor",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            },
+            "emissionOverTime": {
+              "type": "ConstantValue",
+              "value": 1
+            },
+            "emissionOverDistance": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "emissionBursts": [],
+            "onlyUsedByOther": false,
+            "rendererEmitterSettings": {
+              "startLength": {
+                "type": "ConstantValue",
+                "value": 1
+              },
+              "followLocalOrigin": true
+            },
+            "renderMode": 0,
+            "texture": "__$project$__/ir-vfx/assets/textures/sprite_sheets/Explosion.png",
+            "instancingGeometry": "",
+            "startTileIndex": {
+              "type": "IntervalValue",
+              "a": 0,
+              "b": 25
+            },
+            "uTileCount": 5,
+            "vTileCount": 5,
+            "blending": 1,
+            "behaviors": [],
+            "worldSpace": false,
+            "transparent": true
+          },
+          "behaviorParameters": [
+            {
+              "type": "FrameOverLife",
+              "frame": {
+                "type": "PiecewiseBezier",
+                "functions": [
+                  {
+                    "function": {
+                      "p0": 0,
+                      "p1": 8.3,
+                      "p2": 16.6,
+                      "p3": 25
+                    },
+                    "start": 0
+                  }
+                ]
+              }
+            },
+            {
+              "type": "ColorOverLife",
+              "color": {
+                "type": "Gradient",
+                "functions": [
+                  {
+                    "function": {
+                      "type": "ColorRange",
+                      "a": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0
+                      },
+                      "b": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      }
+                    },
+                    "start": 0
+                  },
+                  {
+                    "start": 0.25,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      },
+                      "b": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      }
+                    }
+                  },
+                  {
+                    "start": 0.75,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      },
+                      "b": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "EE_visible": true
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "EE_uuid",
+    "EE_particle_system",
+    "EE_visible",
+    "EE_ecs"
+  ]
+}

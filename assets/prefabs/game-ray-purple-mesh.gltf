@@ -1,0 +1,91 @@
+{
+  "asset": { "version": "2.0", "generator": "THREE.GLTFExporter" },
+  "scenes": [
+    {
+      "nodes": [0],
+      "extras": {
+        "src": "__$project$__/ir-vfx/assets/game-ray-purple.gltf"
+      }
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "matrix": [1, 0, 0, 0, 0, 2.220446049250313e-16, 1, 0, 0, -1, 2.220446049250313e-16, 0, 0, 0, 0, 1],
+      "name": "ray",
+      "extensions": {
+        "EE_particle_system": {
+          "systemParameters": {
+            "version": "1.0",
+            "autoDestroy": false,
+            "looping": true,
+            "prewarm": true,
+            "material": "dud",
+            "duration": 5,
+            "shape": { "type": "point" },
+            "startLife": { "type": "IntervalValue", "a": 1.7000000000000002, "b": 2.7 },
+            "startSpeed": { "type": "ConstantValue", "value": 0 },
+            "startRotation": { "type": "ConstantValue", "value": 0 },
+            "startSize": { "type": "IntervalValue", "a": 1, "b": 2 },
+            "startColor": { "type": "ConstantColor", "color": { "r": 1, "g": 1, "b": 1, "a": 1 } },
+            "emissionOverTime": { "type": "ConstantValue", "value": 3.1 },
+            "emissionOverDistance": { "type": "ConstantValue", "value": 0 },
+            "emissionBursts": [],
+            "onlyUsedByOther": false,
+            "rendererEmitterSettings": {
+              "startLength": { "type": "ConstantValue", "value": 1 },
+              "followLocalOrigin": true
+            },
+            "renderMode": 2,
+            "texture": "__$project$__/ir-vfx/assets/textures/ray2.png",
+            "instancingGeometry": "__$project$__/ir-vfx/assets/geometry/quad.glb",
+            "startTileIndex": { "type": "ConstantValue", "value": 0 },
+            "uTileCount": 1,
+            "vTileCount": 1,
+            "blending": 2,
+            "behaviors": [],
+            "worldSpace": true,
+            "transparent": true
+          },
+          "behaviorParameters": [
+            { "type": "ApplyForce", "direction": [1.3, 0, 0], "magnitude": { "type": "ConstantValue", "value": 0.5 } },
+            {
+              "type": "ColorOverLife",
+              "color": {
+                "type": "Gradient",
+                "functions": [
+                  {
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 0.3277780980458375, "g": 0, "b": 1, "a": 1.1102230246251565e-15 },
+                      "b": { "r": 0.5394794890033748, "g": 0.1844749944900301, "b": 0.9559733532482866, "a": 1 }
+                    },
+                    "start": 0
+                  },
+                  {
+                    "start": 0.7,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 0.36625259558833256, "g": 0.0865004620280852, "b": 1, "a": 1 },
+                      "b": { "r": 1, "g": 0, "b": 0.8713671191959567, "a": 1 }
+                    }
+                  },
+                  {
+                    "start": 0.9000000000000001,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 1, "g": 0.9646862478936612, "b": 0.20863687013464577, "a": 1 },
+                      "b": { "r": 0, "g": 0.7083757798856457, "b": 1, "a": 0 }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "EE_visible": true
+      }
+    }
+  ],
+  "extensionsUsed": ["EE_particle_system", "EE_visible", "EE_ecs"]
+}

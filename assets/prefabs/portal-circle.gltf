@@ -1,0 +1,200 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter"
+  },
+  "scenes": [
+    {
+      "name": "New Object",
+      "nodes": [
+        0
+      ],
+      "extras": {
+        "src": "__$project$__/ir-vfx/assets/prefabs/portal-circle.gltf"
+      }
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "name": "portal",
+      "extensions": {
+        "EE_uuid": "f610f2fd-4585-43f8-bd53-6ddab6ae9e79",
+        "EE_particle_system": {
+          "systemParameters": {
+            "version": "1.0",
+            "autoDestroy": false,
+            "looping": true,
+            "prewarm": true,
+            "material": "dud",
+            "duration": 5,
+            "shape": {
+              "type": "point"
+            },
+            "startLife": {
+              "type": "IntervalValue",
+              "a": 3.3999999999999995,
+              "b": 2
+            },
+            "startSpeed": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "startRotation": {
+              "type": "IntervalValue",
+              "a": 0,
+              "b": 180
+            },
+            "startSize": {
+              "type": "IntervalValue",
+              "a": 7,
+              "b": 8
+            },
+            "startColor": {
+              "type": "ConstantColor",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            },
+            "emissionOverTime": {
+              "type": "ConstantValue",
+              "value": 4.1
+            },
+            "emissionOverDistance": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "emissionBursts": [],
+            "onlyUsedByOther": false,
+            "rendererEmitterSettings": {
+              "startLength": {
+                "type": "ConstantValue",
+                "value": 1
+              },
+              "followLocalOrigin": true
+            },
+            "renderMode": 0,
+            "texture": "__$project$__/ir-vfx/assets/textures/twirl.png",
+            "instancingGeometry": "",
+            "startTileIndex": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "uTileCount": 1,
+            "vTileCount": 1,
+            "blending": 2,
+            "behaviors": [],
+            "worldSpace": false,
+            "transparent": true
+          },
+          "behaviorParameters": [
+            {
+              "type": "ApplyForce",
+              "direction": [
+                0,
+                0.10000000000000009,
+                0
+              ],
+              "magnitude": {
+                "type": "ConstantValue",
+                "value": 0.09999999999999992
+              }
+            },
+            {
+              "type": "ColorOverLife",
+              "color": {
+                "type": "Gradient",
+                "functions": [
+                  {
+                    "function": {
+                      "type": "ColorRange",
+                      "a": {
+                        "r": 1,
+                        "g": 0.6104955708001716,
+                        "b": 0.023153366173251366,
+                        "a": 0
+                      },
+                      "b": {
+                        "r": 0.8713671191959567,
+                        "g": 0.7230551289161951,
+                        "b": 0.11443537381770343,
+                        "a": 1
+                      }
+                    },
+                    "start": 0
+                  },
+                  {
+                    "start": 0.5,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": {
+                        "r": 1,
+                        "g": 0.3515325994898463,
+                        "b": 0,
+                        "a": 1
+                      },
+                      "b": {
+                        "r": 0.3915724777393922,
+                        "g": 0.061246054224174035,
+                        "b": 0,
+                        "a": 1
+                      }
+                    }
+                  },
+                  {
+                    "start": 0.75,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": {
+                        "r": 1,
+                        "g": 0,
+                        "b": 0,
+                        "a": 1
+                      },
+                      "b": {
+                        "r": 0.9734452903978066,
+                        "g": 0.48514994004665124,
+                        "b": 0.00030352698352941176,
+                        "a": 0
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "OrbitOverLife",
+              "orbitSpeed": {
+                "type": "ConstantValue",
+                "value": 2.5999999999999996
+              },
+              "axis": [
+                0,
+                0,
+                0.09999999999999981
+              ]
+            },
+            {
+              "type": "RotationOverLife",
+              "angularVelocity": {
+                "type": "ConstantValue",
+                "value": 1
+              },
+              "dynamic": false
+            }
+          ]
+        },
+        "EE_visible": true
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "EE_uuid",
+    "EE_particle_system",
+    "EE_visible",
+    "EE_ecs"
+  ]
+}

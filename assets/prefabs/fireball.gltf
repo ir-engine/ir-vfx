@@ -1,0 +1,121 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter"
+  },
+  "scenes": [
+    {
+      "name": "New Object",
+      "nodes": [
+        0
+      ],
+      "extras": {
+        "src": "__$project$__/ir-vfx/assets/prefabs/fireball.gltf"
+      }
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "name": "fireball",
+      "extensions": {
+        "EE_uuid": "091d9210-104e-441b-b2db-8c92675233bd",
+        "EE_particle_system": {
+          "systemParameters": {
+            "version": "1.0",
+            "autoDestroy": false,
+            "looping": true,
+            "prewarm": false,
+            "material": "dud",
+            "duration": 1,
+            "shape": {
+              "type": "point"
+            },
+            "startLife": {
+              "type": "ConstantValue",
+              "value": 1.01
+            },
+            "startSpeed": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "startRotation": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "startSize": {
+              "type": "ConstantValue",
+              "value": 2.4000000000000004
+            },
+            "startColor": {
+              "type": "ConstantColor",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            },
+            "emissionOverTime": {
+              "type": "ConstantValue",
+              "value": 1
+            },
+            "emissionOverDistance": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "emissionBursts": [],
+            "onlyUsedByOther": false,
+            "rendererEmitterSettings": {
+              "startLength": {
+                "type": "ConstantValue",
+                "value": 1
+              },
+              "followLocalOrigin": true
+            },
+            "renderMode": 0,
+            "texture": "__$project$__/ir-vfx/assets/textures/sprite_sheets/FireBall.png",
+            "instancingGeometry": "",
+            "startTileIndex": {
+              "type": "IntervalValue",
+              "a": 0,
+              "b": 64
+            },
+            "uTileCount": 8,
+            "vTileCount": 8,
+            "blending": 2,
+            "behaviors": [],
+            "worldSpace": false,
+            "transparent": true
+          },
+          "behaviorParameters": [
+            {
+              "type": "FrameOverLife",
+              "frame": {
+                "type": "PiecewiseBezier",
+                "functions": [
+                  {
+                    "function": {
+                      "p0": 0,
+                      "p1": 21,
+                      "p2": 42,
+                      "p3": 64
+                    },
+                    "start": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "EE_visible": true
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "EE_uuid",
+    "EE_particle_system",
+    "EE_visible",
+    "EE_ecs"
+  ]
+}

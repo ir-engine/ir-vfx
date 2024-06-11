@@ -1,0 +1,108 @@
+{
+  "asset": { "version": "2.0", 
+  "generator": "THREE.GLTFExporter" },
+  "scenes": [
+    {
+     
+      "nodes": [0],
+      "extras": {
+        "src": "__$project$__/ir-vfx/assets/sparkle-star.gltf"
+        }
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "name": "sparkle",
+      "extensions": {
+        "EE_visible": true,
+        "EE_particle_system": {
+          "systemParameters": {
+            "version": "1.0",
+            "autoDestroy": false,
+            "looping": true,
+            "prewarm": false,
+            "material": "",
+            "duration": 5,
+            "shape": { "type": "point" },
+            "startLife": { "type": "IntervalValue", "a": 2.6, "b": 6.200000000000001 },
+            "startSpeed": { "type": "ConstantValue", "value": 0.2000000000000001 },
+            "startRotation": { "type": "IntervalValue", "a": 0, "b": 300 },
+            "startSize": { "type": "IntervalValue", "a": 0.025, "b": 0.25 },
+            "startColor": { "type": "ConstantColor", "color": { "r": 1, "g": 1, "b": 1, "a": 1 } },
+            "emissionOverTime": { "type": "ConstantValue", "value": 7.2 },
+            "emissionOverDistance": { "type": "ConstantValue", "value": 0 },
+            "emissionBursts": [],
+            "onlyUsedByOther": false,
+            "rendererEmitterSettings": {
+              "startLength": { "type": "ConstantValue", "value": 1 },
+              "followLocalOrigin": true
+            },
+            "renderMode": 0,
+            "texture": "__$project$__/ir-vfx/assets/textures/star_01.png",
+            "instancingGeometry": "",
+            "startTileIndex": { "type": "ConstantValue", "value": 0 },
+            "uTileCount": 1,
+            "vTileCount": 1,
+            "blending": 2,
+            "behaviors": [],
+            "worldSpace": true
+          },
+          "behaviorParameters": [
+            {
+              "type": "ApplyForce",
+              "direction": [0, 0.09999999999999992, 0],
+              "magnitude": { "type": "ConstantValue", "value": 0.09999999999999973 }
+            },
+            {
+              "type": "ColorOverLife",
+              "color": {
+                "type": "Gradient",
+                "functions": [
+                  {
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 1, "g": 1, "b": 1, "a": 0 },
+                      "b": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                    },
+                    "start": 0
+                  },
+                  {
+                    "start": 0.25,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 1, "g": 0.5711248294565854, "b": 0.17788841597328695, "a": 1 },
+                      "b": { "r": 1, "g": 0.8069522576650873, "b": 0.001214107934117647, "a": 1 }
+                    }
+                  },
+                  {
+                    "start": 0.5,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 0.9473065367320066, "g": 1, "b": 0.2541520943200296, "a": 0 },
+                      "b": { "r": 1, "g": 1, "b": 1, "a": 1 }
+                    }
+                  },
+                  {
+                    "start": 0.75,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": { "r": 1, "g": 0.7156935005005721, "b": 0.26225065751888765, "a": 1 },
+                      "b": { "r": 1, "g": 1, "b": 1, "a": 0 }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+         
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "EE_visible",
+    "EE_particle_system",
+    "EE_ecs"
+  ]
+}

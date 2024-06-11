@@ -1,0 +1,235 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter"
+  },
+  "scenes": [
+    {
+      "name": "New Object",
+      "nodes": [
+        0
+      ],
+      "extras": {
+        "src": "__$project$__/ir-vfx/assets/prefabs/rose-petals.gltf"
+      }
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        6.6000000000000005,
+        0,
+        1
+      ],
+      "name": "rose_petal",
+      "extensions": {
+        "EE_uuid": "188dd8d7-24c0-4470-b91f-421b435e8f4a",
+        "EE_particle_system": {
+          "systemParameters": {
+            "version": "1.0",
+            "autoDestroy": false,
+            "looping": true,
+            "prewarm": true,
+            "material": "dud",
+            "duration": 5,
+            "shape": {
+              "type": "sphere",
+              "radius": 1
+            },
+            "startLife": {
+              "type": "IntervalValue",
+              "a": 9.4,
+              "b": 15.100000000000001
+            },
+            "startSpeed": {
+              "type": "IntervalValue",
+              "a": 0.010000000000000009,
+              "b": 0.30000000000000004
+            },
+            "startRotation": {
+              "type": "IntervalValue",
+              "a": 0,
+              "b": 360
+            },
+            "startSize": {
+              "type": "IntervalValue",
+              "a": 0.05125000000000002,
+              "b": 0.1499999999999999
+            },
+            "startColor": {
+              "type": "ColorRange",
+              "a": {
+                "r": 1,
+                "g": 0.6938717612856897,
+                "b": 0.2541520943200296,
+                "a": 1
+              },
+              "b": {
+                "r": 0.2541520943200296,
+                "g": 0.0009105809505882353,
+                "b": 0.07618538147321911,
+                "a": 1
+              }
+            },
+            "emissionOverTime": {
+              "type": "IntervalValue",
+              "a": 2.1,
+              "b": 6.1
+            },
+            "emissionOverDistance": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "emissionBursts": [],
+            "onlyUsedByOther": false,
+            "rendererEmitterSettings": {
+              "startLength": {
+                "type": "ConstantValue",
+                "value": 1
+              },
+              "followLocalOrigin": true
+            },
+            "renderMode": 0,
+            "texture": "__$project$__/ir-vfx/assets/textures/rose-petal.png",
+            "instancingGeometry": "",
+            "startTileIndex": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "uTileCount": 1,
+            "vTileCount": 1,
+            "blending": 1,
+            "behaviors": [],
+            "worldSpace": true,
+            "transparent": true
+          },
+          "behaviorParameters": [
+            {
+              "type": "ApplyForce",
+              "direction": [
+                0,
+                -0.4,
+                0
+              ],
+              "magnitude": {
+                "type": "ConstantValue",
+                "value": 0.19999999999999996
+              }
+            },
+            {
+              "type": "TurbulenceField",
+              "scale": [
+                1,
+                1,
+                1.5000000000000018
+              ],
+              "octaves": 0.8999999999999999,
+              "velocityMultiplier": [
+                0.6,
+                0.19999999999999996,
+                0.400000000000001
+              ],
+              "timeScale": [
+                1,
+                1,
+                1
+              ]
+            },
+            {
+              "type": "ColorOverLife",
+              "color": {
+                "type": "Gradient",
+                "functions": [
+                  {
+                    "function": {
+                      "type": "ColorRange",
+                      "a": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0
+                      },
+                      "b": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      }
+                    },
+                    "start": 0
+                  },
+                  {
+                    "start": 0.10000000000000009,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      },
+                      "b": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      }
+                    }
+                  },
+                  {
+                    "start": 0.9000000000000001,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                      },
+                      "b": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 0
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "RotationOverLife",
+              "angularVelocity": {
+                "type": "IntervalValue",
+                "a": -2,
+                "b": 2
+              },
+              "dynamic": false
+            }
+          ]
+        },
+        "EE_visible": true
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "EE_uuid",
+    "EE_particle_system",
+    "EE_visible",
+    "EE_ecs"
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter"
+  },
+  "scenes": [
+    {
+      "name": "New Object",
+      "nodes": [
+        0
+      ],
+      "extras": {
+        "src": "__$project$__/ir-vfx/assets/prefabs/fire_particles_spritesheet_1.gltf"
+      }
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "name": "Fire_Particles",
+      "extensions": {
+        "EE_uuid": "42342dfb-bb54-4cca-a780-864861dba715",
+        "EE_particle_system": {
+          "systemParameters": {
+            "version": "1.0",
+            "autoDestroy": false,
+            "looping": true,
+            "prewarm": false,
+            "material": "dud",
+            "duration": 1,
+            "shape": {
+              "type": "point"
+            },
+            "startLife": {
+              "type": "ConstantValue",
+              "value": 2.01
+            },
+            "startSpeed": {
+              "type": "IntervalValue",
+              "a": 0,
+              "b": 0
+            },
+            "startRotation": {
+              "type": "IntervalValue",
+              "a": 0,
+              "b": 0
+            },
+            "startSize": {
+              "type": "ConstantValue",
+              "value": 1
+            },
+            "startColor": {
+              "type": "ConstantColor",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            },
+            "emissionOverTime": {
+              "type": "ConstantValue",
+              "value": 0.5
+            },
+            "emissionOverDistance": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "emissionBursts": [],
+            "onlyUsedByOther": false,
+            "rendererEmitterSettings": {
+              "startLength": {
+                "type": "ConstantValue",
+                "value": 1
+              },
+              "followLocalOrigin": true
+            },
+            "renderMode": 2,
+            "texture": "__$project$__/ir-vfx/assets/textures/sprite_sheets/fire_campfire.ktx2",
+            "instancingGeometry": "__$project$__/ir-vfx/assets/geometry/fire_mesh.glb",
+            "startTileIndex": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "uTileCount": 8,
+            "vTileCount": 8,
+            "blending": 1,
+            "behaviors": [],
+            "worldSpace": false,
+            "transparent": true
+          },
+          "behaviorParameters": [
+            {
+              "type": "FrameOverLife",
+              "frame": {
+                "type": "PiecewiseBezier",
+                "functions": [
+                  {
+                    "function": {
+                      "p0": 0,
+                      "p1": 21,
+                      "p2": 43,
+                      "p3": 64
+                    },
+                    "start": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "EE_visible": true
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "EE_uuid",
+    "EE_particle_system",
+    "EE_visible",
+    "EE_ecs"
+  ]
+}

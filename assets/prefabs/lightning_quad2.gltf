@@ -1,0 +1,138 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter"
+  },
+  "scenes": [
+    {
+      "name": "New Object",
+      "nodes": [
+        0
+      ],
+      "extras": {
+        "src": "__$project$__/ir-vfx/assets/prefabs/lightning_quad2.gltf"
+      }
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "matrix": [
+        -0.9999995864762501,
+        0.0009094214259590576,
+        -1.2246462927268164e-16,
+        0,
+        0.0009094214259590572,
+        0.9999995864762495,
+        1.113720038376781e-19,
+        0,
+        1.2246467991473535e-16,
+        0,
+        -1.0000000000000002,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "lightning",
+      "extensions": {
+        "EE_uuid": "0539ffea-a57f-474f-bc31-0c1bcaf910b1",
+        "EE_particle_system": {
+          "systemParameters": {
+            "version": "1.0",
+            "autoDestroy": false,
+            "looping": true,
+            "prewarm": false,
+            "material": "dud",
+            "duration": 1,
+            "shape": {
+              "type": "point"
+            },
+            "startLife": {
+              "type": "ConstantValue",
+              "value": 1.25
+            },
+            "startSpeed": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "startRotation": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "startSize": {
+              "type": "ConstantValue",
+              "value": 10
+            },
+            "startColor": {
+              "type": "ConstantColor",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            },
+            "emissionOverTime": {
+              "type": "ConstantValue",
+              "value": 0.8
+            },
+            "emissionOverDistance": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "emissionBursts": [],
+            "onlyUsedByOther": false,
+            "rendererEmitterSettings": {
+              "startLength": {
+                "type": "ConstantValue",
+                "value": 1
+              },
+              "followLocalOrigin": true
+            },
+            "renderMode": 2,
+            "texture": "__$project$__/ir-vfx/assets/textures/sprite_sheets/lightning.png",
+            "instancingGeometry": "__$project$__/ir-vfx/assets/geometry/fire_mesh.glb",
+            "startTileIndex": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "uTileCount": 4,
+            "vTileCount": 4,
+            "blending": 2,
+            "behaviors": [],
+            "worldSpace": true,
+            "transparent": true
+          },
+          "behaviorParameters": [
+            {
+              "type": "FrameOverLife",
+              "frame": {
+                "type": "PiecewiseBezier",
+                "functions": [
+                  {
+                    "function": {
+                      "p0": 0,
+                      "p1": 0,
+                      "p2": 16,
+                      "p3": 16
+                    },
+                    "start": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "EE_visible": true
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "EE_uuid",
+    "EE_particle_system",
+    "EE_visible",
+    "EE_ecs"
+  ]
+}

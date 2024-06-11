@@ -1,0 +1,197 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter"
+  },
+  "scenes": [
+    {
+      "name": "New Object",
+      "nodes": [
+        0
+      ],
+      "extras": {
+        "src": "__$project$__/ir-vfx/assets/prefabs/portal-purpleblue.gltf"
+      }
+    }
+  ],
+  "scene": 0,
+  "nodes": [
+    {
+      "name": "portal",
+      "extensions": {
+        "EE_uuid": "8301f6c8-c94d-4e85-941a-37679903b02e",
+        "EE_particle_system": {
+          "systemParameters": {
+            "version": "1.0",
+            "autoDestroy": false,
+            "looping": true,
+            "prewarm": true,
+            "material": "dud",
+            "duration": 5,
+            "shape": {
+              "type": "donut",
+              "radius": 1.25,
+              "arc": 30,
+              "thickness": 0.010000000000000009,
+              "angle": 15
+            },
+            "startLife": {
+              "type": "IntervalValue",
+              "a": 10,
+              "b": 15
+            },
+            "startSpeed": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "startRotation": {
+              "type": "IntervalValue",
+              "a": 0,
+              "b": 300
+            },
+            "startSize": {
+              "type": "IntervalValue",
+              "a": 1,
+              "b": 2
+            },
+            "startColor": {
+              "type": "ConstantColor",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+              }
+            },
+            "emissionOverTime": {
+              "type": "ConstantValue",
+              "value": 12.2
+            },
+            "emissionOverDistance": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "emissionBursts": [],
+            "onlyUsedByOther": false,
+            "rendererEmitterSettings": {
+              "startLength": {
+                "type": "ConstantValue",
+                "value": 1
+              },
+              "followLocalOrigin": true
+            },
+            "renderMode": 0,
+            "texture": "__$project$__/ir-vfx/assets/textures/spark.ktx2",
+            "instancingGeometry": "",
+            "startTileIndex": {
+              "type": "ConstantValue",
+              "value": 0
+            },
+            "uTileCount": 1,
+            "vTileCount": 1,
+            "blending": 2,
+            "behaviors": [],
+            "worldSpace": false,
+            "transparent": true
+          },
+          "behaviorParameters": [
+            {
+              "type": "ApplyForce",
+              "direction": [
+                0,
+                0,
+                0.29999999999999993
+              ],
+              "magnitude": {
+                "type": "ConstantValue",
+                "value": 0.050000000000000044
+              }
+            },
+            {
+              "type": "ColorOverLife",
+              "color": {
+                "type": "Gradient",
+                "functions": [
+                  {
+                    "function": {
+                      "type": "ColorRange",
+                      "a": {
+                        "r": 0.5332764040016892,
+                        "g": 0.023153366173251366,
+                        "b": 1,
+                        "a": 0
+                      },
+                      "b": {
+                        "r": 0.23074004851362045,
+                        "g": 0.11443537381770343,
+                        "b": 0.8713671191959567,
+                        "a": 0.5
+                      }
+                    },
+                    "start": 0
+                  },
+                  {
+                    "start": 0.5,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": {
+                        "r": 0.06662593863608139,
+                        "g": 0,
+                        "b": 1,
+                        "a": 0.5
+                      },
+                      "b": {
+                        "r": 0.0027317428517647058,
+                        "g": 0,
+                        "b": 0.3915724777393922,
+                        "a": 0.5
+                      }
+                    }
+                  },
+                  {
+                    "start": 0.75,
+                    "function": {
+                      "type": "ColorRange",
+                      "a": {
+                        "r": 0,
+                        "g": 0.9215818562755338,
+                        "b": 1,
+                        "a": 0.5
+                      },
+                      "b": {
+                        "r": 0.02955683443236377,
+                        "g": 0.00030352698352941176,
+                        "b": 0.9734452903978066,
+                        "a": 0
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "OrbitOverLife",
+              "orbitSpeed": {
+                "type": "IntervalValue",
+                "a": 0.050000000000000044,
+                "b": 0.19999999999999996
+              },
+              "axis": [
+                0,
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        "EE_visible": true
+      }
+    }
+  ],
+  "extensionsUsed": [
+    "EE_uuid",
+    "EE_particle_system",
+    "EE_visible",
+    "EE_ecs"
+  ]
+}
