@@ -7,8 +7,11 @@
     "key": "projects/ir-vfx/assets/prefabs/sparkler.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "sparkle"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
     "updatedAt": "2024-06-13T17:13:25.000Z"
@@ -21,7 +24,8 @@
     "key": "projects/ir-vfx/assets/geometry/quad.glb",
     "mimeType": "model/gltf-binary",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Model"
     ],
     "createdAt": "2024-06-13T17:13:23.000Z",
@@ -35,8 +39,11 @@
     "key": "projects/ir-vfx/assets/prefabs/sparkle-star3.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "sparkle"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
     "updatedAt": "2024-06-13T17:13:25.000Z"
@@ -49,7 +56,8 @@
     "key": "projects/ir-vfx/assets/textures/star_02.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -63,7 +71,8 @@
     "key": "projects/ir-vfx/assets/textures/star.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -77,7 +86,8 @@
     "key": "projects/ir-vfx/assets/textures/circle.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -91,7 +101,8 @@
     "key": "projects/ir-vfx/assets/textures/sprite_sheets/lightning.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -105,7 +116,8 @@
     "key": "projects/ir-vfx/assets/textures/sprite_sheets/fire_campfire.ktx2",
     "mimeType": "image/ktx2",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -119,7 +131,8 @@
     "key": "projects/ir-vfx/assets/geometry/fire_mesh.glb",
     "mimeType": "model/gltf-binary",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Model"
     ],
     "createdAt": "2024-06-13T17:13:23.000Z",
@@ -133,8 +146,11 @@
     "key": "projects/ir-vfx/assets/prefabs/portal-circle.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "portal"
     ],
     "createdAt": "2024-06-13T17:13:24.000Z",
     "updatedAt": "2024-06-13T17:13:24.000Z"
@@ -147,7 +163,8 @@
     "key": "projects/ir-vfx/assets/textures/spark_ray.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -161,8 +178,11 @@
     "key": "projects/ir-vfx/assets/prefabs/smoke.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "smoke"
     ],
     "createdAt": "2024-06-13T17:13:24.000Z",
     "updatedAt": "2024-06-13T17:13:24.000Z"
@@ -175,7 +195,8 @@
     "key": "projects/ir-vfx/assets/textures/ray1.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -189,7 +210,8 @@
     "key": "projects/ir-vfx/assets/textures/sprite_sheets/FireBall.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -203,7 +225,8 @@
     "key": "projects/ir-vfx/assets/textures/spark_rotate.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -217,7 +240,8 @@
     "key": "projects/ir-vfx/assets/textures/twirl.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -231,7 +255,8 @@
     "key": "projects/ir-vfx/assets/textures/sprite_sheets/Explosion.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -245,8 +270,11 @@
     "key": "projects/ir-vfx/assets/prefabs/lightning_quad2.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "lightning"
     ],
     "createdAt": "2024-06-13T17:13:24.000Z",
     "updatedAt": "2024-06-13T17:13:24.000Z"
@@ -259,8 +287,11 @@
     "key": "projects/ir-vfx/assets/prefabs/fireball.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "fireball"
     ],
     "createdAt": "2024-06-13T17:13:23.000Z",
     "updatedAt": "2024-06-13T17:13:23.000Z"
@@ -273,8 +304,11 @@
     "key": "projects/ir-vfx/assets/prefabs/game-ray-purple-mesh.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "game ray"
     ],
     "createdAt": "2024-06-13T17:13:23.000Z",
     "updatedAt": "2024-06-13T17:13:23.000Z"
@@ -287,8 +321,11 @@
     "key": "projects/ir-vfx/assets/prefabs/portal-mesh.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "portal"
     ],
     "createdAt": "2024-06-13T17:13:24.000Z",
     "updatedAt": "2024-06-13T17:13:24.000Z"
@@ -301,7 +338,8 @@
     "key": "projects/ir-vfx/assets/textures/star_01.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -315,7 +353,8 @@
     "key": "projects/ir-vfx/assets/textures/sprite_sheets/cloud_spritesheet.ktx2",
     "mimeType": "image/ktx2",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -329,8 +368,11 @@
     "key": "projects/ir-vfx/assets/prefabs/lightning_quad.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "lightning"
     ],
     "createdAt": "2024-06-13T17:13:24.000Z",
     "updatedAt": "2024-06-13T17:13:24.000Z"
@@ -343,7 +385,8 @@
     "key": "projects/ir-vfx/assets/textures/rose-petal.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -357,7 +400,8 @@
     "key": "projects/ir-vfx/assets/textures/sprite_sheets/Cloud.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -371,7 +415,8 @@
     "key": "projects/ir-vfx/assets/geometry/half-sphere.glb",
     "mimeType": "model/gltf-binary",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Model"
     ],
     "createdAt": "2024-06-13T17:13:23.000Z",
@@ -385,8 +430,11 @@
     "key": "projects/ir-vfx/assets/prefabs/game-ray-fire-mesh.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "game ray"
     ],
     "createdAt": "2024-06-13T17:13:23.000Z",
     "updatedAt": "2024-06-13T17:13:23.000Z"
@@ -399,8 +447,11 @@
     "key": "projects/ir-vfx/assets/prefabs/cloud.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "cloud"
     ],
     "createdAt": "2024-06-13T17:13:23.000Z",
     "updatedAt": "2024-06-13T17:13:23.000Z"
@@ -413,8 +464,11 @@
     "key": "projects/ir-vfx/assets/prefabs/game-ray-purple.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "game ray"
     ],
     "createdAt": "2024-06-13T17:13:23.000Z",
     "updatedAt": "2024-06-13T17:13:23.000Z"
@@ -427,7 +481,8 @@
     "key": "projects/ir-vfx/assets/textures/sprite_sheets/Smoke.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -441,8 +496,11 @@
     "key": "projects/ir-vfx/assets/prefabs/game-ray.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "game ray"
     ],
     "createdAt": "2024-06-13T17:13:24.000Z",
     "updatedAt": "2024-06-13T17:13:24.000Z"
@@ -455,8 +513,11 @@
     "key": "projects/ir-vfx/assets/prefabs/sparkle-star1.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "sparkle"
     ],
     "createdAt": "2024-06-13T17:13:24.000Z",
     "updatedAt": "2024-06-13T17:13:24.000Z"
@@ -469,8 +530,11 @@
     "key": "projects/ir-vfx/assets/prefabs/explosion.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "explosion"
     ],
     "createdAt": "2024-06-13T17:13:23.000Z",
     "updatedAt": "2024-06-13T17:13:23.000Z"
@@ -483,8 +547,11 @@
     "key": "projects/ir-vfx/assets/prefabs/sparkle-star2.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "sparkle"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
     "updatedAt": "2024-06-13T17:13:25.000Z"
@@ -497,8 +564,11 @@
     "key": "projects/ir-vfx/assets/prefabs/fire_particles_spritesheet_1.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "fire"
     ],
     "createdAt": "2024-06-13T17:13:23.000Z",
     "updatedAt": "2024-06-13T17:13:23.000Z"
@@ -511,8 +581,11 @@
     "key": "projects/ir-vfx/assets/prefabs/portal-purpleblue.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "portal"
     ],
     "createdAt": "2024-06-13T17:13:24.000Z",
     "updatedAt": "2024-06-13T17:13:24.000Z"
@@ -525,8 +598,11 @@
     "key": "projects/ir-vfx/assets/prefabs/portal-blue.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "portal"
     ],
     "createdAt": "2024-06-13T17:13:24.000Z",
     "updatedAt": "2024-06-13T17:13:24.000Z"
@@ -539,8 +615,11 @@
     "key": "projects/ir-vfx/assets/prefabs/game-ray-fire.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "game ray"
     ],
     "createdAt": "2024-06-13T17:13:23.000Z",
     "updatedAt": "2024-06-13T17:13:23.000Z"
@@ -553,7 +632,8 @@
     "key": "projects/ir-vfx/assets/textures/ray2.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -567,8 +647,11 @@
     "key": "projects/ir-vfx/assets/prefabs/rose-petals.gltf",
     "mimeType": "model/gltf+json",
     "project": "ir-vfx",
-    "tags": [
-      "Model"
+    "tags":
+    [
+      "VFX",
+      "Particle",
+      "rose"
     ],
     "createdAt": "2024-06-13T17:13:24.000Z",
     "updatedAt": "2024-06-13T17:13:24.000Z"
@@ -581,7 +664,8 @@
     "key": "projects/ir-vfx/assets/textures/spark.ktx2",
     "mimeType": "image/ktx2",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -595,7 +679,8 @@
     "key": "projects/ir-vfx/assets/textures/star_03.png",
     "mimeType": "image/png",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Image"
     ],
     "createdAt": "2024-06-13T17:13:25.000Z",
@@ -609,7 +694,8 @@
     "key": "projects/ir-vfx/assets/geometry/quads.glb",
     "mimeType": "model/gltf-binary",
     "project": "ir-vfx",
-    "tags": [
+    "tags":
+    [
       "Model"
     ],
     "createdAt": "2024-06-13T17:13:23.000Z",
