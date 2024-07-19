@@ -1,704 +1,478 @@
-[
-  {
-    "id": "0fcbff7f-7e0d-422e-ba71-1234dc0fc36d",
-    "sid": "44rWcpMH",
-    "hash": "f3aef906140923c599b33948a1ada9a5d0297f92a03cbdf49a9e3d878218e034",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/sparkler.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "sparkle"
+{
+  "assets/geometry/fire_mesh.glb": {
+    "type": "asset",
+    "tags": [
+      "Model",
+      "basic shape"
     ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsgeometryfire_mesh.glb-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "0ffca244-0e41-4b34-80c0-49ff7da9bf2a",
-    "sid": "1SVtlw0r",
-    "hash": "5172b627c80bce002e135b2e99d882b2775771b4664250d43d573e67ea9cc932",
-    "url": "",
-    "key": "projects/ir-vfx/assets/geometry/quad.glb",
-    "mimeType": "model/gltf-binary",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Model", "basic shape"
+  "assets/geometry/half-sphere.glb": {
+    "type": "asset",
+    "tags": [
+      "Model",
+      "basic shape"
     ],
-    "createdAt": "2024-06-13T17:13:23.000Z",
-    "updatedAt": "2024-06-13T17:13:23.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsgeometryhalf-sphere.glb-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "2025caa4-6ac9-4687-8f9e-613b70f85bdb",
-    "sid": "ggQRQqSU",
-    "hash": "0d4e4e38390f0cdbbd406284c092e6fec5b066add01a79631012fdd96f6d1b37",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/sparkle-star3.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "sparkle"
+  "assets/geometry/quad.glb": {
+    "type": "asset",
+    "tags": [
+      "Model",
+      "basic shape"
     ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsgeometryquad.glb-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "2146aa6b-4df6-4594-831d-4fe65115d52f",
-    "sid": "dgX4S8A1",
-    "hash": "79ca5ce2b632e57744cdcf9132f8587097866e6f8bb6f8e704512e1508ae88b1",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/star_02.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite"
+  "assets/geometry/quads.glb": {
+    "type": "asset",
+    "tags": [
+      "Model",
+      "basic shape"
     ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsgeometryquads.glb-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "241f3a81-e04b-4889-92ed-e6d2e4b9f1a4",
-    "sid": "WuIcrHaU",
-    "hash": "cb2fdbf0573057bc464b3cf782b17768c57526ad62dc854f8fadcca18c3fa5a1",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/star.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "26452f5a-da50-4d98-b875-dac850019c06",
-    "sid": "DX-CQXpF",
-    "hash": "96206513149e79afacf6408016d22ad44c1103249f292ca13ea1c36b6c233455",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/circle.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "33bf02a3-60e4-457d-a7bf-211679dbf51b",
-    "sid": "UD8-WQzN",
-    "hash": "ec6a73f5c249193e333175ae6e38a0d51204d138f5d9a2ee7b5d9a373dd1f00c",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/sprite_sheets/lightning.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite", "Sprite sheet"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "3bc19378-c260-419c-872e-67744fd3267a",
-    "sid": "D1ACNOTm",
-    "hash": "fe945a06616f6bbf35154b55712a96a3b5ea87f357c646c0d83e0ea82b9226b1",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/sprite_sheets/fire_campfire.ktx2",
-    "mimeType": "image/ktx2",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite", "Sprite sheet"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "3c2db8ee-c73d-4aaf-992b-ac51b00e1b4d",
-    "sid": "RW4raZPm",
-    "hash": "764deb1b9c8a52744a9d34b3a9eaacc95133a4e125b3b8a071bb2f1fc10d9062",
-    "url": "",
-    "key": "projects/ir-vfx/assets/geometry/fire_mesh.glb",
-    "mimeType": "model/gltf-binary",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Model", "basic shape"
-    ],
-    "createdAt": "2024-06-13T17:13:23.000Z",
-    "updatedAt": "2024-06-13T17:13:23.000Z"
-  },
-  {
-    "id": "51f4a7f7-a81f-44a7-ae88-262aa44572ea",
-    "sid": "iuxoocAu",
-    "hash": "7c9f5f2596cba3fc76e532108e5714bbcac81ac67e1df7a7f211ed98b24b3937",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/portal-circle.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "portal"
-    ],
-    "createdAt": "2024-06-13T17:13:24.000Z",
-    "updatedAt": "2024-06-13T17:13:24.000Z"
-  },
-  {
-    "id": "585a8eb5-730d-449c-97ad-fa74997a46f8",
-    "sid": "iydX3QS0",
-    "hash": "41066cf5ca89c04f196264a3de797071337c5d03b7b7abdcad91110d0ce27910",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/spark_ray.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "681f7696-eb49-4f02-be6d-5d5a9485dc82",
-    "sid": "GYiBonM7",
-    "hash": "d8e244ed776d1f3311f4edd5f8e8b72e1a4914bd13a1a5fa763754acec739cfd",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/smoke.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "smoke"
-    ],
-    "createdAt": "2024-06-13T17:13:24.000Z",
-    "updatedAt": "2024-06-13T17:13:24.000Z"
-  },
-  {
-    "id": "69bccb73-3757-4e8f-a9f0-bdab990f505d",
-    "sid": "QH_uSQqz",
-    "hash": "23a4edcd6a605535cfa5e38af7c9331f860656022fce1c96de5f46a41dc9305e",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/ray1.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "6a7eafe1-fe9c-4a1a-b839-2a9f99f64f77",
-    "sid": "ZKeth1lG",
-    "hash": "edc03ad27ec867373d459f96d8897b77af4f714965a5763c61e08bc58e50b68e",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/sprite_sheets/FireBall.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite", "Sprite sheet"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "70560936-ec45-4971-88bc-d3e1661c25d2",
-    "sid": "6AcuA7CL",
-    "hash": "b826d8333bf04299486354a694401282b626ed7a775c059c8f0cb6fe5a6235a6",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/spark_rotate.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "713eefc6-ca4e-4761-9e12-4a8b2ae52e66",
-    "sid": "tnsmyU4b",
-    "hash": "f190c79f9e9632f813162880657822e46237662e23d2820b7120562532019e94",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/twirl.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "73bf62aa-1ad1-4367-b9df-b9ddb82ff317",
-    "sid": "IULCPiBY",
-    "hash": "ea49e9cc98d9ac13eb7c3856d47e3831e4853d8ebe9e08375e556ef301da7aa6",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/sprite_sheets/Explosion.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite", "Sprite sheet"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "821bcc27-71ce-417c-ade1-9473fe7f0a7b",
-    "sid": "lxe7tlCB",
-    "hash": "8cfdb18fc2eb9158d9fc6eea443a433dd4b2d77550c14329494720dae53739c0",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/lightning_quad2.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "lightning"
-    ],
-    "createdAt": "2024-06-13T17:13:24.000Z",
-    "updatedAt": "2024-06-13T17:13:24.000Z"
-  },
-  {
-    "id": "825418e9-b05b-487b-a176-45036c911302",
-    "sid": "0m2X2Bcp",
-    "hash": "8e73d71402002a25f9caafb6dc7e175f2327fe074e4e351de7d15304c7151716",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/fireball.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "fireball"
-    ],
-    "createdAt": "2024-06-13T17:13:23.000Z",
-    "updatedAt": "2024-06-13T17:13:23.000Z"
-  },
-  {
-    "id": "87630611-9988-48c9-bfce-e793205aebcc",
-    "sid": "PFwJM2Re",
-    "hash": "dac837b04e6c8f7da10fa46d437c213d6bcc0be93f987ef34a33fbf9130e6673",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/game-ray-purple-mesh.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "game ray"
-    ],
-    "createdAt": "2024-06-13T17:13:23.000Z",
-    "updatedAt": "2024-06-13T17:13:23.000Z"
-  },
-  {
-    "id": "87cdd471-c014-464d-b83f-46e04a809ad8",
-    "sid": "wChYpeBP",
-    "hash": "7bf3017f2f5c2731914eb04def53f390dd6f34932973c4b844077c69689ed3fc",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/portal-mesh.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "portal"
-    ],
-    "createdAt": "2024-06-13T17:13:24.000Z",
-    "updatedAt": "2024-06-13T17:13:24.000Z"
-  },
-  {
-    "id": "8f01e1d5-3600-4c50-9615-517db3d511b2",
-    "sid": "qoGpINSW",
-    "hash": "ea2905cd12ff22ff226506cbd33dc0acc54562cba06c98687b5b75f4239d3b76",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/star_01.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "909df902-d72b-43db-bcb7-b6572eb55530",
-    "sid": "cue5N0Wf",
-    "hash": "75c4e177c782b2f46a0df70708b0fbce1a5a71743b376a5f24ebfd6cd7925719",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/sprite_sheets/cloud_spritesheet.ktx2",
-    "mimeType": "image/ktx2",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite", "Sprite sheet"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "927d54be-e9ac-48b2-bf54-0e067c349ecf",
-    "sid": "L51CNS9K",
-    "hash": "d5cc6c7aefb99606844b147448404f7109857b3f64852688084d7a76e4494c60",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/lightning_quad.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "lightning"
-    ],
-    "createdAt": "2024-06-13T17:13:24.000Z",
-    "updatedAt": "2024-06-13T17:13:24.000Z"
-  },
-  {
-    "id": "93cf2bc2-874f-4b8c-99fb-9a0bec2ad0ef",
-    "sid": "y_6hRo01",
-    "hash": "cec578e045ac232ac44b10f221684782baee09e1e5ec66afaa7b900d545b374c",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/rose-petal.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "99d4cc38-6fad-4d5d-ae4c-36157f91fb84",
-    "sid": "LTCxN4t2",
-    "hash": "04d2c41f1f0cf26bf6a0d1e83aa567e6d2273bc640b882b42e70ad0e477e955a",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/sprite_sheets/Cloud.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite", "Sprite sheet"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "a339a50a-28dc-4b16-9c8e-a86b49e600a6",
-    "sid": "g6GNhQ2V",
-    "hash": "b4f07cc5bb08f1329f72b157f1d9b4744d12ce24d2388c589af2671d2a84c61e",
-    "url": "",
-    "key": "projects/ir-vfx/assets/geometry/half-sphere.glb",
-    "mimeType": "model/gltf-binary",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Model", "basic shape"
-    ],
-    "createdAt": "2024-06-13T17:13:23.000Z",
-    "updatedAt": "2024-06-13T17:13:23.000Z"
-  },
-  {
-    "id": "a60e45bf-8cbe-4380-bfb4-97b06c839efd",
-    "sid": "hA4DZkbk",
-    "hash": "4a44ac5ce69300b88b56d044cd5626269bd743a0f22137c0070c7a743e57235f",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/game-ray-fire-mesh.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "game ray"
-    ],
-    "createdAt": "2024-06-13T17:13:23.000Z",
-    "updatedAt": "2024-06-13T17:13:23.000Z"
-  },
-  {
-    "id": "b1699e3d-b008-423c-8304-72901b8419dc",
-    "sid": "i_4gGPX_",
-    "hash": "a34e005f51d431885d705bf0adceb620d6216272a9518cd35561267c20848c02",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/cloud.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
+  "assets/prefabs/cloud.gltf": {
+    "type": "asset",
+    "tags": [
       "VFX",
       "Particle",
       "cloud"
     ],
-    "createdAt": "2024-06-13T17:13:23.000Z",
-    "updatedAt": "2024-06-13T17:13:23.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabscloud.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "b8cbdabe-89cd-41f1-8dce-dd4f4d41be62",
-    "sid": "alGA5AQs",
-    "hash": "c73c3dd93dccc3a84ed49c945dd967f3f1a2a58f523ba332137e151114debfe3",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/game-ray-purple.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "game ray"
-    ],
-    "createdAt": "2024-06-13T17:13:23.000Z",
-    "updatedAt": "2024-06-13T17:13:23.000Z"
-  },
-  {
-    "id": "bd64ed3d-6677-41d8-8952-1fb19b14a398",
-    "sid": "8X8K4KVs",
-    "hash": "9b1f39bdd96f7a38aabd68038f65352633744d735a5e8507ac00c210a124d8be",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/sprite_sheets/Smoke.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite", "Sprite sheet"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "c143ef5f-c96f-41f6-b674-f8ddd84ce35f",
-    "sid": "vWVfmbYr",
-    "hash": "bc86882495d4bb0f2d0e4aec74def40f21cc6a48bf0d1c64fa4376ef61988788",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/game-ray.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "game ray"
-    ],
-    "createdAt": "2024-06-13T17:13:24.000Z",
-    "updatedAt": "2024-06-13T17:13:24.000Z"
-  },
-  {
-    "id": "c25a067c-13e7-4dd2-8361-e8496d1ad409",
-    "sid": "uRGRJMCK",
-    "hash": "2a810daa9afe5833aaba139af9b5d358e5b4d82c65032af6f03802434739d8d1",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/sparkle-star1.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "sparkle"
-    ],
-    "createdAt": "2024-06-13T17:13:24.000Z",
-    "updatedAt": "2024-06-13T17:13:24.000Z"
-  },
-  {
-    "id": "c44ecf3e-0335-4bd3-b2bf-1e998d1208cf",
-    "sid": "W5LpzU7s",
-    "hash": "f32b0a064048ed5c8533d9d98fb92dd2d3d1e541bd1179b01d9e316287085f81",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/explosion.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
+  "assets/prefabs/explosion.gltf": {
+    "type": "asset",
+    "tags": [
       "VFX",
       "Particle",
       "explosion"
     ],
-    "createdAt": "2024-06-13T17:13:23.000Z",
-    "updatedAt": "2024-06-13T17:13:23.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsexplosion.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "cb7a4840-f60d-46b2-95b6-ed36fafb3916",
-    "sid": "Cu1pSf6I",
-    "hash": "e81cfb7fa570cb182b10bbdbb9f13ff2a8588b03f170e83d23a90c9a399c3baf",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/sparkle-star2.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "sparkle"
-    ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
-  },
-  {
-    "id": "ce637655-f8f8-4e26-8a40-0fe38e28262a",
-    "sid": "bOD4mCeJ",
-    "hash": "1bd970fab3a33e6772d56d048fcb5b536f43964cab1d25ce74972143190288e7",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/fire_particles_spritesheet_1.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
+  "assets/prefabs/fire_particles_spritesheet_1.gltf": {
+    "type": "asset",
+    "tags": [
       "VFX",
       "Particle",
       "fire"
     ],
-    "createdAt": "2024-06-13T17:13:23.000Z",
-    "updatedAt": "2024-06-13T17:13:23.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsfire_particles_spritesheet_1.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "cf78324e-6aaa-41f8-9fcf-d2badf6610de",
-    "sid": "VEEHY0EE",
-    "hash": "97d71161f53abb8fdf1a2d33f69fb970927c68238f6a9a9b5f53231265fa76e9",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/portal-purpleblue.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
+  "assets/prefabs/fireball.gltf": {
+    "type": "asset",
+    "tags": [
       "VFX",
       "Particle",
-      "portal"
+      "fireball"
     ],
-    "createdAt": "2024-06-13T17:13:24.000Z",
-    "updatedAt": "2024-06-13T17:13:24.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsfireball.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "d05f9ea8-2b38-49b9-b1b5-509e8a2a5ce4",
-    "sid": "I8gHftVq",
-    "hash": "69f1cc3bf2d6faea12f3c3af05922a91c48af437dbc7c3f71b18f01de4e3c8ca",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/portal-blue.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "VFX",
-      "Particle",
-      "portal"
-    ],
-    "createdAt": "2024-06-13T17:13:24.000Z",
-    "updatedAt": "2024-06-13T17:13:24.000Z"
-  },
-  {
-    "id": "d5978e05-ad47-4efb-9689-961ca0410730",
-    "sid": "rnVY72_q",
-    "hash": "805bd730058a75e2cff7bcd7900900554cc8ae36ccb167749397dd935d753c7d",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/game-ray-fire.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
+  "assets/prefabs/game-ray-fire-mesh.gltf": {
+    "type": "asset",
+    "tags": [
       "VFX",
       "Particle",
       "game ray"
     ],
-    "createdAt": "2024-06-13T17:13:23.000Z",
-    "updatedAt": "2024-06-13T17:13:23.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray-fire-mesh.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "d68f6d88-7ee1-4167-9231-00fa8b2b49be",
-    "sid": "uw3v-73Q",
-    "hash": "d6eae1e60d1615ab2a70b8ae924f9970277f838051f80ed61858184aa3ca1ace",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/ray2.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite"
+  "assets/prefabs/game-ray-fire.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "game ray"
     ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray-fire.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "dbdc82dc-b926-4d11-8c10-fd7d79f2da01",
-    "sid": "P-BvKy5r",
-    "hash": "9c218b63dac4f9b5b62e0d29f27cd8f2ac047e0478b0ed6d9c1efcfdcf135eb5",
-    "url": "",
-    "key": "projects/ir-vfx/assets/prefabs/rose-petals.gltf",
-    "mimeType": "model/gltf+json",
-    "project": "ir-vfx",
-    "tags":
-    [
+  "assets/prefabs/game-ray-purple-mesh.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "game ray"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray-purple-mesh.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/prefabs/game-ray-purple.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "game ray"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray-purple.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/prefabs/game-ray.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "game ray"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/prefabs/lightning_quad.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "lightning"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabslightning_quad.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/prefabs/lightning_quad2.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "lightning"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabslightning_quad2.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/prefabs/portal-blue.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "portal"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsportal-blue.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/prefabs/portal-circle.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "portal"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsportal-circle.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/prefabs/portal-mesh.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "portal"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsportal-mesh.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/prefabs/portal-purpleblue.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "portal"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsportal-purpleblue.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/prefabs/rose-petals.gltf": {
+    "type": "asset",
+    "tags": [
       "VFX",
       "Particle",
       "rose"
     ],
-    "createdAt": "2024-06-13T17:13:24.000Z",
-    "updatedAt": "2024-06-13T17:13:24.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsrose-petals.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "e1db4b21-4a4c-4c78-a3eb-9bbbacd185a9",
-    "sid": "74bRTXDO",
-    "hash": "4590ac7e9ec2ebbcdebf4d9e0b19051c4ef090c972a3d09a662e4b6cd9109878",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/spark.ktx2",
-    "mimeType": "image/ktx2",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite"
+  "assets/prefabs/smoke.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "smoke"
     ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabssmoke.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "e207f13e-b80f-4848-a403-9709eda8be8c",
-    "sid": "posMn7bI",
-    "hash": "80e036179636136cea3ac09c236c47a1613a0c306f5b35e594d1605f301f76da",
-    "url": "",
-    "key": "projects/ir-vfx/assets/textures/star_03.png",
-    "mimeType": "image/png",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Image", "Sprite"
+  "assets/prefabs/sparkle-star1.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "sparkle"
     ],
-    "createdAt": "2024-06-13T17:13:25.000Z",
-    "updatedAt": "2024-06-13T17:13:25.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabssparkle-star1.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
   },
-  {
-    "id": "e96e36b1-acf9-4906-9f17-d1a0a5b0e1be",
-    "sid": "JDqNxN9m",
-    "hash": "764deb1b9c8a52744a9d34b3a9eaacc95133a4e125b3b8a071bb2f1fc10d9062",
-    "url": "",
-    "key": "projects/ir-vfx/assets/geometry/quads.glb",
-    "mimeType": "model/gltf-binary",
-    "project": "ir-vfx",
-    "tags":
-    [
-      "Model", "basic shape"
+  "assets/prefabs/sparkle-star2.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "sparkle"
     ],
-    "createdAt": "2024-06-13T17:13:23.000Z",
-    "updatedAt": "2024-06-13T17:13:23.000Z"
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabssparkle-star2.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/prefabs/sparkle-star3.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "sparkle"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabssparkle-star3.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/prefabs/sparkler.gltf": {
+    "type": "asset",
+    "tags": [
+      "VFX",
+      "Particle",
+      "sparkle"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabssparkler.gltf-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/circle.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturescircle.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/ray1.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesray1.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/ray2.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesray2.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/rose-petal.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesrose-petal.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/spark_ray.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesspark_ray.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/spark_rotate.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesspark_rotate.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/spark.ktx2": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesspark.ktx2-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/sprite_sheets/cloud_spritesheet.ktx2": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite",
+      "Sprite sheet"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetscloud_spritesheet.ktx2-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/sprite_sheets/Cloud.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite",
+      "Sprite sheet"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsCloud.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/sprite_sheets/Explosion.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite",
+      "Sprite sheet"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsExplosion.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/sprite_sheets/fire_campfire.ktx2": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite",
+      "Sprite sheet"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsfire_campfire.ktx2-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/sprite_sheets/FireBall.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite",
+      "Sprite sheet"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsFireBall.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/sprite_sheets/lightning.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite",
+      "Sprite sheet"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetslightning.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/sprite_sheets/Smoke.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite",
+      "Sprite sheet"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsSmoke.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/star_01.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesstar_01.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/star_02.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesstar_02.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/star_03.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesstar_03.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/star.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesstar.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "assets/textures/twirl.png": {
+    "type": "asset",
+    "tags": [
+      "Image",
+      "Sprite"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturestwirl.png-thumbnail.png",
+    "thumbnailMode": "automatic"
+  },
+  "public/scenes/vfx-sampler.gltf": {
+    "type": "scene",
+    "tags": [
+      "Model"
+    ],
+    "dependencies": [],
+    "thumbnailKey": "projects/ir-vfx/public/scenes/vfx-sampler.thumbnail.jpg"
   }
-]
+}

@@ -3,8 +3,5 @@
   "version": "0.0.0",
   "engineVersion": "1.6.0",
   "description": "The default project for iR Engine",
-  "thumbnail": "/static/etherealengine_thumbnail.jpg",
-  "scenes": [
-    "public/scenes/vfx-sampler.gltf"
-  ]
+  "thumbnail": "/static/etherealengine_thumbnail.jpg"
 }
