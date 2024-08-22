@@ -6,7 +6,7 @@
       "basic shape"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsgeometryfire_mesh.glb-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsgeometryfire_mesh.glb-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/geometry/half-sphere.glb": {
@@ -16,7 +16,7 @@
       "basic shape"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsgeometryhalf-sphere.glb-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsgeometryhalf-sphere.glb-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/geometry/quad.glb": {
@@ -26,7 +26,7 @@
       "basic shape"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsgeometryquad.glb-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsgeometryquad.glb-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/geometry/quads.glb": {
@@ -36,7 +36,7 @@
       "basic shape"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsgeometryquads.glb-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsgeometryquads.glb-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/cloud.gltf": {
@@ -47,7 +47,7 @@
       "cloud"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabscloud.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabscloud.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/explosion.gltf": {
@@ -58,7 +58,7 @@
       "explosion"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsexplosion.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsexplosion.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/fire_particles_spritesheet_1.gltf": {
@@ -69,7 +69,7 @@
       "fire"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsfire_particles_spritesheet_1.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsfire_particles_spritesheet_1.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/fireball.gltf": {
@@ -80,7 +80,7 @@
       "fireball"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsfireball.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsfireball.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/game-ray-fire-mesh.gltf": {
@@ -91,7 +91,7 @@
       "game ray"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray-fire-mesh.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray-fire-mesh.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/game-ray-fire.gltf": {
@@ -102,7 +102,7 @@
       "game ray"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray-fire.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray-fire.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/game-ray-purple-mesh.gltf": {
@@ -113,7 +113,7 @@
       "game ray"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray-purple-mesh.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray-purple-mesh.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/game-ray-purple.gltf": {
@@ -124,7 +124,7 @@
       "game ray"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray-purple.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray-purple.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/game-ray.gltf": {
@@ -135,7 +135,7 @@
       "game ray"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsgame-ray.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/lightning_quad.gltf": {
@@ -146,7 +146,7 @@
       "lightning"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabslightning_quad.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabslightning_quad.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/lightning_quad2.gltf": {
@@ -157,7 +157,7 @@
       "lightning"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabslightning_quad2.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabslightning_quad2.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/portal-blue.gltf": {
@@ -168,7 +168,7 @@
       "portal"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsportal-blue.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsportal-blue.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/portal-circle.gltf": {
@@ -179,7 +179,7 @@
       "portal"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsportal-circle.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsportal-circle.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/portal-mesh.gltf": {
@@ -190,7 +190,7 @@
       "portal"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsportal-mesh.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsportal-mesh.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/portal-purpleblue.gltf": {
@@ -201,7 +201,7 @@
       "portal"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsportal-purpleblue.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsportal-purpleblue.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/rose-petals.gltf": {
@@ -212,7 +212,7 @@
       "rose"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabsrose-petals.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabsrose-petals.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/smoke.gltf": {
@@ -223,7 +223,7 @@
       "smoke"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabssmoke.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabssmoke.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/sparkle-star1.gltf": {
@@ -234,7 +234,7 @@
       "sparkle"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabssparkle-star1.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabssparkle-star1.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/sparkle-star2.gltf": {
@@ -245,7 +245,7 @@
       "sparkle"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabssparkle-star2.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabssparkle-star2.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/sparkle-star3.gltf": {
@@ -256,7 +256,7 @@
       "sparkle"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabssparkle-star3.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabssparkle-star3.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/prefabs/sparkler.gltf": {
@@ -267,7 +267,7 @@
       "sparkle"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetsprefabssparkler.gltf-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetsprefabssparkler.gltf-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/circle.png": {
@@ -277,7 +277,7 @@
       "Sprite"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturescircle.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturescircle.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/ray1.png": {
@@ -287,7 +287,7 @@
       "Sprite"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesray1.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturesray1.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/ray2.png": {
@@ -297,7 +297,7 @@
       "Sprite"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesray2.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturesray2.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/rose-petal.png": {
@@ -307,7 +307,7 @@
       "Sprite"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesrose-petal.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturesrose-petal.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/spark_ray.png": {
@@ -317,7 +317,7 @@
       "Sprite"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesspark_ray.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturesspark_ray.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/spark_rotate.png": {
@@ -327,7 +327,7 @@
       "Sprite"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesspark_rotate.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturesspark_rotate.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/spark.ktx2": {
@@ -337,7 +337,7 @@
       "Sprite"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesspark.ktx2-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturesspark.ktx2-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/sprite_sheets/cloud_spritesheet.ktx2": {
@@ -348,7 +348,7 @@
       "Sprite sheet"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetscloud_spritesheet.ktx2-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetscloud_spritesheet.ktx2-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/sprite_sheets/Cloud.png": {
@@ -359,7 +359,7 @@
       "Sprite sheet"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsCloud.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsCloud.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/sprite_sheets/Explosion.png": {
@@ -370,7 +370,7 @@
       "Sprite sheet"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsExplosion.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsExplosion.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/sprite_sheets/fire_campfire.ktx2": {
@@ -381,7 +381,7 @@
       "Sprite sheet"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsfire_campfire.ktx2-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsfire_campfire.ktx2-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/sprite_sheets/FireBall.png": {
@@ -392,7 +392,7 @@
       "Sprite sheet"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsFireBall.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsFireBall.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/sprite_sheets/lightning.png": {
@@ -403,7 +403,7 @@
       "Sprite sheet"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetslightning.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetslightning.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/sprite_sheets/Smoke.png": {
@@ -414,7 +414,7 @@
       "Sprite sheet"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsSmoke.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturessprite_sheetsSmoke.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/star_01.png": {
@@ -424,7 +424,7 @@
       "Sprite"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesstar_01.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturesstar_01.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/star_02.png": {
@@ -434,7 +434,7 @@
       "Sprite"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesstar_02.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturesstar_02.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/star_03.png": {
@@ -444,7 +444,7 @@
       "Sprite"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesstar_03.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturesstar_03.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/star.png": {
@@ -454,7 +454,7 @@
       "Sprite"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturesstar.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturesstar.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "assets/textures/twirl.png": {
@@ -464,7 +464,7 @@
       "Sprite"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/thumbnails/ir-vfxassetstexturestwirl.png-thumbnail.png",
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/thumbnails/ir-vfxassetstexturestwirl.png-thumbnail.png",
     "thumbnailMode": "automatic"
   },
   "public/scenes/vfx-sampler.gltf": {
@@ -473,6 +473,6 @@
       "Model"
     ],
     "dependencies": [],
-    "thumbnailKey": "projects/ir-vfx/public/scenes/vfx-sampler.thumbnail.jpg"
+    "thumbnailKey": "projects/ir-engine/ir-vfx/public/scenes/vfx-sampler.thumbnail.jpg"
   }
 }
