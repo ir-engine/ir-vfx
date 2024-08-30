@@ -10,7 +10,7 @@
         0
       ],
       "extras": {
-        "src": "__$project$__/ir-vfx/assets/prefabs/rose-petals.gltf"
+        "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/rose-petals.gltf"
       }
     }
   ],
@@ -104,7 +104,7 @@
               "followLocalOrigin": true
             },
             "renderMode": 0,
-            "texture": "__$project$__/ir-vfx/assets/textures/rose-petal.png",
+            "texture": "__$project$__/ir-engine/ir-vfx/assets/textures/rose-petal.png",
             "instancingGeometry": "",
             "startTileIndex": {
               "type": "ConstantValue",

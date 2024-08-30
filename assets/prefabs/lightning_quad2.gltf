@@ -10,7 +10,7 @@
         0
       ],
       "extras": {
-        "src": "__$project$__/ir-vfx/assets/prefabs/lightning_quad2.gltf"
+        "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/lightning_quad2.gltf"
       }
     }
   ],
@@ -92,8 +92,8 @@
               "followLocalOrigin": true
             },
             "renderMode": 2,
-            "texture": "__$project$__/ir-vfx/assets/textures/sprite_sheets/lightning.png",
-            "instancingGeometry": "__$project$__/ir-vfx/assets/geometry/fire_mesh.glb",
+            "texture": "__$project$__/ir-engine/ir-vfx/assets/textures/sprite_sheets/lightning.png",
+            "instancingGeometry": "__$project$__/ir-engine/ir-vfx/assets/geometry/fire_mesh.glb",
             "startTileIndex": {
               "type": "ConstantValue",
               "value": 0

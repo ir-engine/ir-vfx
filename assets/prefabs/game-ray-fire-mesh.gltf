@@ -10,7 +10,7 @@
         0
       ],
       "extras": {
-        "src": "__$project$__/ir-vfx/assets/prefabs/game-ray-fire-mesh.gltf"
+        "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/game-ray-fire-mesh.gltf"
       }
     }
   ],
@@ -76,8 +76,8 @@
               "followLocalOrigin": true
             },
             "renderMode": 2,
-            "texture": "__$project$__/ir-vfx/assets/textures/ray1.png",
-            "instancingGeometry": "__$project$__/ir-vfx/assets/geometry/quad.glb",
+            "texture": "__$project$__/ir-engine/ir-vfx/assets/textures/ray1.png",
+            "instancingGeometry": "__$project$__/ir-engine/ir-vfx/assets/geometry/quad.glb",
             "startTileIndex": {
               "type": "ConstantValue",
               "value": 0

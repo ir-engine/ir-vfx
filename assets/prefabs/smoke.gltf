@@ -10,7 +10,7 @@
         0
       ],
       "extras": {
-        "src": "__$project$__/ir-vfx/assets/prefabs/smoke.gltf"
+        "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/smoke.gltf"
       }
     }
   ],
@@ -92,7 +92,7 @@
               "followLocalOrigin": true
             },
             "renderMode": 0,
-            "texture": "__$project$__/ir-vfx/assets/textures/sprite_sheets/Smoke.png",
+            "texture": "__$project$__/ir-engine/ir-vfx/assets/textures/sprite_sheets/Smoke.png",
             "instancingGeometry": "",
             "startTileIndex": {
               "type": "IntervalValue",

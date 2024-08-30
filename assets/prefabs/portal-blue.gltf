@@ -10,7 +10,7 @@
         0
       ],
       "extras": {
-        "src": "__$project$__/ir-vfx/assets/prefabs/portal-blue.gltf"
+        "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/portal-blue.gltf"
       }
     }
   ],
@@ -77,7 +77,7 @@
               "followLocalOrigin": true
             },
             "renderMode": 0,
-            "texture": "__$project$__/ir-vfx/assets/textures/circle.png",
+            "texture": "__$project$__/ir-engine/ir-vfx/assets/textures/circle.png",
             "instancingGeometry": "",
             "startTileIndex": {
               "type": "ConstantValue",

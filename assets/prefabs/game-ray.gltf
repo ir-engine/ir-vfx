@@ -4,8 +4,8 @@
     {
       "nodes": [0],
       "extras": {
-        "src": "__$project$__/ir-vfx/assets/game-ray.gltf",
-        "sceneID": "2eb3169b-49d4-46e0-bbf8-54663bb76d1b-__$project$__/ir-vfx/assets/game-ray.gltf"
+        "src": "__$project$__/ir-engine/ir-vfx/assets/game-ray.gltf",
+        "sceneID": "2eb3169b-49d4-46e0-bbf8-54663bb76d1b-__$project$__/ir-engine/ir-vfx/assets/game-ray.gltf"
       }
     }
   ],
@@ -37,7 +37,7 @@
               "followLocalOrigin": true
             },
             "renderMode": 0,
-            "texture": "__$project$__/ir-vfx/assets/textures/spark_ray.png",
+            "texture": "__$project$__/ir-engine/ir-vfx/assets/textures/spark_ray.png",
             "instancingGeometry": "",
             "startTileIndex": { "type": "ConstantValue", "value": 0 },
             "uTileCount": 1,
