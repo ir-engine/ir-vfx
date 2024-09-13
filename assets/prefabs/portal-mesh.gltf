@@ -10,7 +10,7 @@
         0
       ],
       "extras": {
-        "src": "__$project$__/ir-vfx/assets/prefabs/portal-mesh.gltf"
+        "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/portal-mesh.gltf"
       }
     }
   ],
@@ -95,8 +95,8 @@
               "followLocalOrigin": true
             },
             "renderMode": 2,
-            "texture": "__$project$__/ir-vfx/assets/textures/spark_rotate.png",
-            "instancingGeometry": "__$project$__/ir-vfx/assets/geometry/half-sphere.glb",
+            "texture": "__$project$__/ir-engine/ir-vfx/assets/textures/spark_rotate.png",
+            "instancingGeometry": "__$project$__/ir-engine/ir-vfx/assets/geometry/half-sphere.glb",
             "startTileIndex": {
               "type": "ConstantValue",
               "value": 0

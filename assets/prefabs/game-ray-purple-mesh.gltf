@@ -4,7 +4,7 @@
     {
       "nodes": [0],
       "extras": {
-        "src": "__$project$__/ir-vfx/assets/game-ray-purple.gltf"
+        "src": "__$project$__/ir-engine/ir-vfx/assets/game-ray-purple.gltf"
       }
     }
   ],
@@ -37,8 +37,8 @@
               "followLocalOrigin": true
             },
             "renderMode": 2,
-            "texture": "__$project$__/ir-vfx/assets/textures/ray2.png",
-            "instancingGeometry": "__$project$__/ir-vfx/assets/geometry/quad.glb",
+            "texture": "__$project$__/ir-engine/ir-vfx/assets/textures/ray2.png",
+            "instancingGeometry": "__$project$__/ir-engine/ir-vfx/assets/geometry/quad.glb",
             "startTileIndex": { "type": "ConstantValue", "value": 0 },
             "uTileCount": 1,
             "vTileCount": 1,

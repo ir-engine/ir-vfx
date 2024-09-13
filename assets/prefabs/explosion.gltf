@@ -10,7 +10,7 @@
         0
       ],
       "extras": {
-        "src": "__$project$__/ir-vfx/assets/prefabs/explosion.gltf"
+        "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/explosion.gltf"
       }
     }
   ],
@@ -74,7 +74,7 @@
               "followLocalOrigin": true
             },
             "renderMode": 0,
-            "texture": "__$project$__/ir-vfx/assets/textures/sprite_sheets/Explosion.png",
+            "texture": "__$project$__/ir-engine/ir-vfx/assets/textures/sprite_sheets/Explosion.png",
             "instancingGeometry": "",
             "startTileIndex": {
               "type": "IntervalValue",

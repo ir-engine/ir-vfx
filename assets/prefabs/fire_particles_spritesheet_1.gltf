@@ -10,7 +10,7 @@
         0
       ],
       "extras": {
-        "src": "__$project$__/ir-vfx/assets/prefabs/fire_particles_spritesheet_1.gltf"
+        "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/fire_particles_spritesheet_1.gltf"
       }
     }
   ],
@@ -76,8 +76,8 @@
               "followLocalOrigin": true
             },
             "renderMode": 2,
-            "texture": "__$project$__/ir-vfx/assets/textures/sprite_sheets/fire_campfire.ktx2",
-            "instancingGeometry": "__$project$__/ir-vfx/assets/geometry/fire_mesh.glb",
+            "texture": "__$project$__/ir-engine/ir-vfx/assets/textures/sprite_sheets/fire_campfire.ktx2",
+            "instancingGeometry": "__$project$__/ir-engine/ir-vfx/assets/geometry/fire_mesh.glb",
             "startTileIndex": {
               "type": "ConstantValue",
               "value": 0

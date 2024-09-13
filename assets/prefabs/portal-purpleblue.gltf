@@ -10,7 +10,7 @@
         0
       ],
       "extras": {
-        "src": "__$project$__/ir-vfx/assets/prefabs/portal-purpleblue.gltf"
+        "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/portal-purpleblue.gltf"
       }
     }
   ],
@@ -81,7 +81,7 @@
               "followLocalOrigin": true
             },
             "renderMode": 0,
-            "texture": "__$project$__/ir-vfx/assets/textures/spark.ktx2",
+            "texture": "__$project$__/ir-engine/ir-vfx/assets/textures/spark.ktx2",
             "instancingGeometry": "",
             "startTileIndex": {
               "type": "ConstantValue",

@@ -6,7 +6,7 @@
      
       "nodes": [0],
       "extras": {
-        "src": "__$project$__/ir-vfx/assets/sparkle-star.gltf"
+        "src": "__$project$__/ir-engine/ir-vfx/assets/sparkle-star.gltf"
         }
     }
   ],
@@ -39,7 +39,7 @@
               "followLocalOrigin": true
             },
             "renderMode": 0,
-            "texture": "__$project$__/ir-vfx/assets/textures/star_01.png",
+            "texture": "__$project$__/ir-engine/ir-vfx/assets/textures/star_01.png",
             "instancingGeometry": "",
             "startTileIndex": { "type": "ConstantValue", "value": 0 },
             "uTileCount": 1,

@@ -545,7 +545,7 @@
       "name": "Cloud",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/cloud.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/cloud.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -575,7 +575,7 @@
       "name": "Fire",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/fire_particles_spritesheet_1.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/fire_particles_spritesheet_1.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -605,7 +605,7 @@
       "name": "Explosion",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/explosion.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/explosion.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -635,7 +635,7 @@
       "name": "Fireball",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/fireball.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/fireball.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -665,7 +665,7 @@
       "name": "Ray 1",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/game-ray-fire-mesh.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/game-ray-fire-mesh.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -695,7 +695,7 @@
       "name": "Ray 2",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/game-ray-purple-mesh.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/game-ray-purple-mesh.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -725,7 +725,7 @@
       "name": "Lightning 1",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/lightning_quad.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/lightning_quad.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -755,7 +755,7 @@
       "name": "Lightning 2",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/lightning_quad2.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/lightning_quad2.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -785,7 +785,7 @@
       "name": "Portal 1",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/portal-blue.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/portal-blue.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -815,7 +815,7 @@
       "name": "Portal 2",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/portal-circle.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/portal-circle.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -845,7 +845,7 @@
       "name": "Portal 3",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/portal-mesh.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/portal-mesh.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -875,7 +875,7 @@
       "name": "Portal 4",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/portal-purpleblue.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/portal-purpleblue.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -905,7 +905,7 @@
       "name": "Rose Petals",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/rose-petals.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/rose-petals.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -917,7 +917,7 @@
       "name": "Smoke",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/smoke.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/smoke.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -947,7 +947,7 @@
       "name": "Sparkle 1",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/sparkle-star1.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/sparkle-star1.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -977,7 +977,7 @@
       "name": "Sparkle 2",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/sparkle-star2.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/sparkle-star2.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -1007,7 +1007,7 @@
       "name": "Sparkle 3",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/sparkle-star3.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/sparkle-star3.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
@@ -1037,7 +1037,7 @@
       "name": "Sparkler",
       "extensions": {
         "EE_model": {
-          "src": "__$project$__/ir-vfx/assets/prefabs/sparkler.gltf",
+          "src": "__$project$__/ir-engine/ir-vfx/assets/prefabs/sparkler.gltf",
           "cameraOcclusion": true,
           "convertToVRM": false
         },
