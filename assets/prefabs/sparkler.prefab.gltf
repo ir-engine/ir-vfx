@@ -11,7 +11,7 @@
   "scene": 0,
   "nodes": [
     {
-      "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 27.900000000000002, 0, 1],
+      "matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1],
       "name": "sparkler",
       "extensions": {
         "EE_particle_system": {
