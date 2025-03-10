@@ -14,7 +14,7 @@
     {
       "name": "ray",
       "extensions": {
-        "EE_particle-system": {
+        "EE_particle_system": {
           "systemParameters": {
             "version": "1.0",
             "autoDestroy": false,
