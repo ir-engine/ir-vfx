@@ -1,0 +1,168 @@
+name: Update Dependency
+
+on:
+  repository_dispatch:
+    types:
+      - update-dependency
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-manifest:
+    name: Update Project Manifest
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Generate GitHub App Token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.IR_REPO_AUTH_APP_ID }}
+          private-key: ${{ secrets.IR_REPO_AUTH_PRIVATE_KEY }}
+          owner: theinfinitereality
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.client_payload.branch }}
+          token: ${{ steps.app-token.outputs.token }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Validate payload
+        run: |
+          echo "Received payload:"
+          echo "Project name: ${{ github.event.client_payload.project_name }}"
+          echo "Commit hash: ${{ github.event.client_payload.commit_hash }}"
+          echo "Branch: ${{ github.event.client_payload.branch }}"
+          
+          if [ -z "${{ github.event.client_payload.project_name }}" ]; then
+            echo "Error: project_name is required"
+            exit 1
+          fi
+          
+          if [ -z "${{ github.event.client_payload.commit_hash }}" ]; then
+            echo "Error: commit_hash is required"
+            exit 1
+          fi
+          
+          if [ -z "${{ github.event.client_payload.branch }}" ]; then
+            echo "Error: branch is required"
+            exit 1
+          fi
+
+      - name: Check if manifest.json exists
+        run: |
+          if [ ! -f "manifest.json" ]; then
+            echo "Error: manifest.json not found in repository root"
+            exit 1
+          fi
+
+      - name: Update manifest.json
+        run: |
+          PROJECT_NAME="${{ github.event.client_payload.project_name }}"
+          COMMIT_HASH="${{ github.event.client_payload.commit_hash }}"
+          
+          # Install jq for JSON manipulation
+          sudo apt-get update && sudo apt-get install -y jq
+          
+          # Create a backup of the original manifest
+          cp manifest.json manifest.json.backup
+          
+          # Check if dependencies array exists, create if it doesn't
+          if ! jq -e '.dependencies' manifest.json > /dev/null; then
+            echo "Creating dependencies array in manifest.json"
+            jq '. + {"dependencies": []}' manifest.json > manifest.json.tmp && mv manifest.json.tmp manifest.json
+          fi
+          
+          # Check if the project already exists in dependencies
+          EXISTING_INDEX=$(jq --arg name "$PROJECT_NAME" '.dependencies | map(.name) | index($name)' manifest.json)
+          
+          if [ "$EXISTING_INDEX" != "null" ]; then
+            echo "Updating existing dependency: $PROJECT_NAME"
+            # Update existing entry's commit hash
+            jq --arg name "$PROJECT_NAME" --arg commit "$COMMIT_HASH" \
+              '.dependencies = (.dependencies | map(if .name == $name then .commit = $commit else . end))' \
+              manifest.json > manifest.json.tmp && mv manifest.json.tmp manifest.json
+          else
+            echo "Adding new dependency: $PROJECT_NAME"
+            # Add new dependency entry
+            jq --arg name "$PROJECT_NAME" --arg commit "$COMMIT_HASH" \
+              '.dependencies += [{"name": $name, "commit": $commit}]' \
+              manifest.json > manifest.json.tmp && mv manifest.json.tmp manifest.json
+          fi
+          
+          # Validate the updated JSON
+          if ! jq empty manifest.json; then
+            echo "Error: Invalid JSON generated. Restoring backup."
+            mv manifest.json.backup manifest.json
+            exit 1
+          fi
+          
+          echo "Successfully updated manifest.json"
+          echo "Updated dependencies:"
+          jq '.dependencies' manifest.json
+
+      - name: Check for changes
+        id: check-changes
+        run: |
+          if git diff --quiet manifest.json; then
+            echo "No changes detected in manifest.json"
+            echo "has-changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "Changes detected in manifest.json"
+            echo "has-changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check-changes.outputs.has-changes == 'true'
+        env:
+          token: ${{ steps.app-token.outputs.token }}
+        run: |
+          PROJECT_NAME="${{ github.event.client_payload.project_name }}"
+          COMMIT_HASH="${{ github.event.client_payload.commit_hash }}"
+          SHORT_HASH="${COMMIT_HASH:0:8}"
+          
+          # Configure git
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Add and commit changes
+          git add manifest.json
+          git commit -m "Update dependency $PROJECT_NAME to commit $SHORT_HASH
+
+          - Project: $PROJECT_NAME
+          - Commit: $COMMIT_HASH
+          - Updated via: repository_dispatch"
+          
+          # Push changes
+          git push origin ${{ github.event.client_payload.branch }}
+          
+          echo "Successfully committed and pushed dependency update"
+
+      - name: Create summary
+        run: |
+          PROJECT_NAME="${{ github.event.client_payload.project_name }}"
+          COMMIT_HASH="${{ github.event.client_payload.commit_hash }}"
+          BRANCH="${{ github.event.client_payload.branch }}"
+          HAS_CHANGES="${{ steps.check-changes.outputs.has-changes }}"
+          
+          echo "## Dependency Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Project**: \`$PROJECT_NAME\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Commit**: \`$COMMIT_HASH\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Branch**: \`$BRANCH\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes Made**: $HAS_CHANGES" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "$HAS_CHANGES" = "true" ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Updated Dependencies" >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`json" >> $GITHUB_STEP_SUMMARY
+            jq '.dependencies' manifest.json >> $GITHUB_STEP_SUMMARY
+            echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+          fi
