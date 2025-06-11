@@ -1,0 +1,182 @@
+name: Notify Dependent Projects
+
+on:
+  push:
+    branches:
+      - dev
+      - int
+      - stg
+      - prd
+      - test
+      - 'release**'
+
+permissions:
+  contents: read
+
+jobs:
+  notify-dependents:
+    name: Notify Dependent Projects
+    runs-on: ubuntu-latest
+    environment: dependency-management
+
+    outputs:
+      dependent-repos: ${{ steps.parse-dependents.outputs.dependent-repos }}
+      repo-count: ${{ steps.parse-dependents.outputs.repo-count }}
+      commit-hash: ${{ steps.commit-info.outputs.commit-hash }}
+      branch-name: ${{ steps.commit-info.outputs.branch-name }}
+      project-name: ${{ steps.commit-info.outputs.project-name }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Get commit information
+        id: commit-info
+        run: |
+          COMMIT_HASH="${{ github.sha }}"
+          BRANCH_NAME="${{ github.ref_name }}"
+          PROJECT_NAME="${{ github.repository }}"
+          
+          echo "commit-hash=$COMMIT_HASH" >> $GITHUB_OUTPUT
+          echo "branch-name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+          echo "project-name=$PROJECT_NAME" >> $GITHUB_OUTPUT
+          
+          echo "Commit information:"
+          echo "- Hash: $COMMIT_HASH"
+          echo "- Branch: $BRANCH_NAME"
+          echo "- Project: $PROJECT_NAME"
+
+      - name: create-json
+        id: create-json
+        uses: jsdaniell/create-json@v1.2.3
+        with:
+          name: "dependent-projects.json"
+          json: ${{ vars.DEPENDENT_PROJECTS }}
+
+      - name: Parse dependent projects
+        id: parse-dependents
+        run: |
+          # Install jq for JSON parsing
+          sudo apt-get update && sudo apt-get install -y jq
+          
+          # Validate and parse JSON
+          if ! cat dependent-projects.json | jq empty; then
+            echo "Error: DEPENDENT_PROJECTS is not valid JSON"
+            exit 1
+          fi
+          
+          if [ ! -s dependent-projects.json ]; then
+            echo "No dependent projects configured in DEPENDENT_PROJECTS environment variable."
+            echo "dependent-repos=[]" >> $GITHUB_OUTPUT
+            REPO_COUNT=$(cat dependent-projects.json | jq length)
+            echo "repo-count=0" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          
+          # Extract array of repositories
+          REPOS=$(cat dependent-projects.json | jq -r '.[]' | tr '\n' ' ')
+          echo "Parsed repositories: $REPOS"
+          
+          # Convert to JSON array for matrix
+          REPOS_JSON=$(cat dependent-projects.json | jq -c .)
+          echo "dependent-repos=$REPOS_JSON" >> $GITHUB_OUTPUT
+          
+          # Count repositories
+          REPO_COUNT=$(cat dependent-projects.json | jq length)
+          echo "repo-count=$REPO_COUNT" >> $GITHUB_OUTPUT
+          
+          echo "Found $REPO_COUNT dependent repositories"
+
+      - name: Validate dependent repositories
+        if: fromJson(steps.parse-dependents.outputs.repo-count) > 0
+        run: |
+          REPOS='${{ steps.parse-dependents.outputs.dependent-repos }}'
+          
+          echo "$REPOS" | jq -r '.[]' | while read -r repo; do
+            if [[ ! "$repo" =~ ^[a-zA-Z0-9_.-]+/[a-zA-Z0-9_.-]+$ ]]; then
+              echo "Error: Invalid repository format: $repo"
+              echo "Expected format: organization/repository"
+              exit 1
+            fi
+            echo "✓ Valid repository format: $repo"
+          done
+
+  dispatch-updates:
+    name: Dispatch to Dependent Projects
+    runs-on: ubuntu-latest
+    needs: notify-dependents
+    if: fromJson(needs.notify-dependents.outputs.repo-count) > 0
+    environment: dependency-management
+    strategy:
+      matrix:
+        repository: ${{ fromJson(needs.notify-dependents.outputs.dependent-repos) }}
+      fail-fast: false
+      max-parallel: 5
+
+    steps:
+      - name: Generate GitHub App Token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.IR_REPO_AUTH_APP_ID }}
+          private-key: ${{ secrets.IR_REPO_AUTH_PRIVATE_KEY }}
+          owner: theinfinitereality
+
+      - name: Dispatch repository update
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          repository: ${{ matrix.repository }}
+          event-type: update-dependency
+          client-payload: |
+            {
+              "project_name": "${{ needs.notify-dependents.outputs.project-name }}",
+              "commit_hash": "${{ needs.notify-dependents.outputs.commit-hash }}",
+              "branch": "${{ needs.notify-dependents.outputs.branch-name }}"
+            }
+
+      - name: Log dispatch
+        run: |
+          echo "Successfully dispatched update to ${{ matrix.repository }}"
+          echo "Payload sent:"
+          echo "- project_name: ${{ needs.notify-dependents.outputs.project-name }}"
+          echo "- commit_hash: ${{ needs.notify-dependents.outputs.commit-hash }}"
+          echo "- branch: ${{ needs.notify-dependents.outputs.branch-name }}"
+
+  summary:
+    name: Create Summary
+    runs-on: ubuntu-latest
+    needs: [notify-dependents, dispatch-updates]
+    if: always()
+    
+    steps:
+      - name: Create dispatch summary
+        run: |
+          REPO_COUNT="${{ needs.notify-dependents.outputs.repo-count }}"
+          PROJECT_NAME="${{ needs.notify-dependents.outputs.project-name }}"
+          COMMIT_HASH="${{ needs.notify-dependents.outputs.commit-hash }}"
+          BRANCH_NAME="${{ needs.notify-dependents.outputs.branch-name }}"
+          
+          echo "## Dependency Notification Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Source Project**: \`$PROJECT_NAME\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Commit**: \`$COMMIT_HASH\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Branch**: \`$BRANCH_NAME\`" >> $GITHUB_STEP_SUMMARY
+          echo "- **Dependent Projects**: $REPO_COUNT" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "$REPO_COUNT" -gt 0 ]; then
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### Notified Repositories" >> $GITHUB_STEP_SUMMARY
+            REPOS='${{ needs.notify-dependents.outputs.dependent-repos }}'
+            echo "$REPOS" | jq -r '.[]' | while read -r repo; do
+              echo "- \`$repo\`" >> $GITHUB_STEP_SUMMARY
+            done
+          else
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "No dependent projects configured in DEPENDENT_PROJECTS environment variable." >> $GITHUB_STEP_SUMMARY
+          fi
